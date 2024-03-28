@@ -1,11 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules:['@nuxtjs/tailwindcss'],
   css: [
     '~/assets/css/vendors/font-awesome.css',
     '~/assets/css/vendors/slick.css',
-    '~/assets/css/vendors/slick-theme.css',    
+    '~/assets/css/vendors/slick-theme.css',
     '~/assets/css/vendors/animate.css',
     '~/assets/css/vendors/themify-icons.css',
     '~/assets/css/vendors/bootstrap.css',
@@ -33,7 +32,7 @@ export default defineNuxtConfig({
         { src: 'js/theme-setting.js', tagPosition: 'bodyClose'},
         { src: 'js/script.js', tagPosition: 'bodyClose'},
       ],
-  
+
     }
   },
   runtimeConfig: {
