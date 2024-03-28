@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Header />
     <header class="shadow-sm bg-white">
       <nav class="container mx-auto p-4 flex justify-between">
         <NuxtLink to="/" class="font-bold">Main</NuxtLink>
@@ -22,6 +23,7 @@
     <div class="container mx-auto p-4">
       <slot />
     </div>
+    <Footer />
   </div>
 </template>
 
