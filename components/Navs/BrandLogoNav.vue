@@ -1,13 +1,19 @@
-<template>
-  <div class="brand-logo">
-    <NuxtLink to="/">
-      <img src="../../assets/images/icon/layout3/logo.png" class="img-fluid lazyload" alt="">
-    </NuxtLink>
-  </div>
-</template>
-
-<script lang="ts" setup>
+<script setup lang="ts">
 
 </script>
 
-<style></style>
+<template>
+  <div class="brand-logo">
+    <NuxtLink to="/">
+      <img src="../../assets/images/icon/evacode.png" alt="">
+    </NuxtLink>
+  </div>
+  <div class="footer-logo"></div>
+
+</template>
+
+<style scoped>
+.brand-logo img {
+  width: 130px;
+}
+</style>
