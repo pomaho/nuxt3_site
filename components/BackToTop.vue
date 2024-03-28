@@ -1,0 +1,15 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="tap-top">
+    <div>
+      <i class="fa fa-angle-double-up"></i>
+    </div>
+  </div>
+</template>
+
+<style scoped>
+
+</style>

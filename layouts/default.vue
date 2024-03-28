@@ -3,6 +3,7 @@
     <Header />
     <slot />
     <Footer />
+    <BackToTop />
   </div>
 </template>
 
@@ -11,7 +12,4 @@
 </script>
 
 <style>
-  .router-link-exact-active {
-    color: red;
-  }
 </style>
