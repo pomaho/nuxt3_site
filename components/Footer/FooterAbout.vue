@@ -13,5 +13,7 @@
 </template>
 
 <style scoped>
-
+.footer-logo img {
+  width: 100%;
+}
 </style>
