@@ -36,7 +36,6 @@
 
 (function ($) {
     "use strict";
-debugger;
     /*=====================
      01.Pre loader
      ==========================*/
